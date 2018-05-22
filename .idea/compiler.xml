@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-provider" />
+        <module name="dubbo-service" />
+        <module name="hadoop-demo" />
+        <module name="hbase-demo" />
+        <module name="hdfs-demo" />
+        <module name="kafka-consumer" />
+        <module name="kafka-producer" />
+        <module name="springboot-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="collection-demo" target="1.5" />
+      <module name="dubbo-consumer" target="1.5" />
+      <module name="dubbo-demo" target="1.5" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="dubbo-service" target="1.5" />
+      <module name="hadoop-demo" target="1.5" />
+      <module name="hbase-demo" target="1.8" />
+      <module name="hdfs-demo" target="1.8" />
+      <module name="kafka-consumer" target="1.5" />
+      <module name="kafka-demo" target="1.5" />
+      <module name="kafka-producer" target="1.5" />
+      <module name="springboot-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
